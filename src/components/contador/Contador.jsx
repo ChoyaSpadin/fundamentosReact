@@ -5,6 +5,7 @@ import PassoForm from "./PassoForm";
 import Botoes from "./Botoes";
 
 export default class TestContador extends Component {
+  
   state = {
     passo: this.props.passo || 1,
     valor: this.props.passo || 0,
