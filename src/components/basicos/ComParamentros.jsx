@@ -1,4 +1,5 @@
 import React from 'react'
+// props é somente leitura
 
 export default props =>
     <>
