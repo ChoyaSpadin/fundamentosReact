@@ -14,6 +14,7 @@ import Pai from "./components/comunicacao/ direta/Pai";
 import Super from "./components/comunicacao/indireta/Super";
 import Input from "./components/form/Input";
 import TestContador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 export default (props) => (
   <div className="App">
@@ -76,5 +77,9 @@ export default (props) => (
         <TestContador passo={10} valor={100}></TestContador>
       </Card>
     </div>
+
+    <Card titulo="#12 MegaSena" color="#285746 ">
+      <Mega qntNumero={8}></Mega>
+    </Card>
   </div>
 );
